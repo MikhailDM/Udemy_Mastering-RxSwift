@@ -7,5 +7,6 @@ target '01_HelloRxSwift' do
 
   # Pods for 01_HelloRxSwift
     pod 'RxSwift', '~> 4.0'
+    pod 'RxCocoa', '~> 4.0'
 
 end
