@@ -3,7 +3,6 @@ import RxSwift
 import RxCocoa
 
 //MARK: - TakeUntil
-/*
 let disposeBag = DisposeBag()
 let subject = PublishSubject<String>()
 let trigger = PublishSubject<String>()
@@ -15,7 +14,6 @@ subject.onNext("A")
 subject.onNext("B")
 trigger.onNext("X")
 subject.onNext("C")
-*/
 
 //MARK: - TakeWhile
 /*
