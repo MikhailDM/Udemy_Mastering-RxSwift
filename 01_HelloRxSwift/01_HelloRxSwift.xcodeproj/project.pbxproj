@@ -25,7 +25,8 @@
 		2713EBB8247D952C00CF4A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2713EBBB247D952C00CF4A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2713EBBD247D952C00CF4A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2713EBC3247D971600CF4A55 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2713EBC3247D971600CF4A55 /* ObservableSubjectsPG.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObservableSubjectsPG.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		27D2D795247E8FC40057CEBC /* FilteringPG.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilteringPG.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		46717F55B2BE6E6841AAB33C /* Pods-01_HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-01_HelloRxSwift/Pods-01_HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		862F7C6D6DC93230C43A540F /* Pods-01_HelloRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_HelloRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-01_HelloRxSwift/Pods-01_HelloRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		FF9B4BEAE7DA0D6C32C14A5E /* Pods_01_HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_01_HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +65,8 @@
 		2713EBAE247D952900CF4A55 /* 01_HelloRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				2713EBC3247D971600CF4A55 /* RxSwiftPlayground.playground */,
+				27D2D795247E8FC40057CEBC /* FilteringPG.playground */,
+				2713EBC3247D971600CF4A55 /* ObservableSubjectsPG.playground */,
 				2713EBAF247D952900CF4A55 /* AppDelegate.swift */,
 				2713EBB1247D952900CF4A55 /* SceneDelegate.swift */,
 				2713EBB3247D952900CF4A55 /* ViewController.swift */,
