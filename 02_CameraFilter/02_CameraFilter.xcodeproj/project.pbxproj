@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2745C927247E79A800FEA0D4 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2745C926247E79A800FEA0D4 /* PhotoCollectionViewCell.swift */; };
+		2745C929247E875600FEA0D4 /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2745C928247E875600FEA0D4 /* FilterService.swift */; };
 		279CBE12247E4F1E0095796A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CBE11247E4F1E0095796A /* AppDelegate.swift */; };
 		279CBE14247E4F1E0095796A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CBE13247E4F1E0095796A /* SceneDelegate.swift */; };
 		279CBE16247E4F1E0095796A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CBE15247E4F1E0095796A /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		003D41CF987009D3E7F2982F /* Pods-02_CameraFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_CameraFilter.debug.xcconfig"; path = "Target Support Files/Pods-02_CameraFilter/Pods-02_CameraFilter.debug.xcconfig"; sourceTree = "<group>"; };
 		24177C718B7B6E1224D08203 /* Pods-02_CameraFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_CameraFilter.release.xcconfig"; path = "Target Support Files/Pods-02_CameraFilter/Pods-02_CameraFilter.release.xcconfig"; sourceTree = "<group>"; };
+		2745C926247E79A800FEA0D4 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		2745C928247E875600FEA0D4 /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
 		279CBE0E247E4F1E0095796A /* 02_CameraFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02_CameraFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279CBE11247E4F1E0095796A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		279CBE13247E4F1E0095796A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,11 +72,13 @@
 				279CBE11247E4F1E0095796A /* AppDelegate.swift */,
 				279CBE13247E4F1E0095796A /* SceneDelegate.swift */,
 				279CBE15247E4F1E0095796A /* ViewController.swift */,
+				279CBE25247E50160095796A /* PhotosCollectionViewController.swift */,
+				2745C926247E79A800FEA0D4 /* PhotoCollectionViewCell.swift */,
+				2745C928247E875600FEA0D4 /* FilterService.swift */,
 				279CBE17247E4F1E0095796A /* Main.storyboard */,
 				279CBE1A247E4F240095796A /* Assets.xcassets */,
 				279CBE1C247E4F240095796A /* LaunchScreen.storyboard */,
 				279CBE1F247E4F240095796A /* Info.plist */,
-				279CBE25247E50160095796A /* PhotosCollectionViewController.swift */,
 			);
 			path = 02_CameraFilter;
 			sourceTree = "<group>";
@@ -91,7 +97,6 @@
 				003D41CF987009D3E7F2982F /* Pods-02_CameraFilter.debug.xcconfig */,
 				24177C718B7B6E1224D08203 /* Pods-02_CameraFilter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,7 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				279CBE16247E4F1E0095796A /* ViewController.swift in Sources */,
+				2745C927247E79A800FEA0D4 /* PhotoCollectionViewCell.swift in Sources */,
 				279CBE12247E4F1E0095796A /* AppDelegate.swift in Sources */,
+				2745C929247E875600FEA0D4 /* FilterService.swift in Sources */,
 				279CBE14247E4F1E0095796A /* SceneDelegate.swift in Sources */,
 				279CBE26247E50160095796A /* PhotosCollectionViewController.swift in Sources */,
 			);
