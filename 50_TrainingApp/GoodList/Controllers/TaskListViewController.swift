@@ -17,7 +17,8 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
     @IBOutlet weak var tableView: UITableView!
     
     
-//MARK: - TASKS
+//MARK: - MANAGER
+    var taskManager = TasksManager()
     
     
     

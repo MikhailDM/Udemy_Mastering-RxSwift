@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1302502D1E4944333DABE4A3 /* Pods_GoodList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338F040A43AE9459288390CF /* Pods_GoodList.framework */; };
+		2718B54B24800C34000043B5 /* TasksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718B54A24800C34000043B5 /* TasksManager.swift */; };
 		8D5F6F7722278003006B0DA5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F6F7622278003006B0DA5 /* Task.swift */; };
 		8DE0B3EB2226308300860CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0B3EA2226308300860CF7 /* AppDelegate.swift */; };
 		8DE0B3F02226308300860CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0B3EE2226308300860CF7 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2718B54A24800C34000043B5 /* TasksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksManager.swift; sourceTree = "<group>"; };
 		338F040A43AE9459288390CF /* Pods_GoodList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA1EC04DFB7896B4FB97941 /* Pods-GoodList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodList/Pods-GoodList.debug.xcconfig"; sourceTree = "<group>"; };
 		8D5F6F7622278003006B0DA5 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2718B54924800C1E000043B5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2718B54A24800C34000043B5 /* TasksManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		8D5F6F7522277FF1006B0DA5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 		8DE0B3E92226308300860CF7 /* GoodList */ = {
 			isa = PBXGroup;
 			children = (
+				2718B54924800C1E000043B5 /* Manager */,
 				8D5F6F7522277FF1006B0DA5 /* Models */,
 				8DE0B3FC222630A000860CF7 /* Controllers */,
 				8DE0B3EA2226308300860CF7 /* AppDelegate.swift */,
@@ -224,6 +235,7 @@
 			files = (
 				8D5F6F7722278003006B0DA5 /* Task.swift in Sources */,
 				8DE0B3EB2226308300860CF7 /* AppDelegate.swift in Sources */,
+				2718B54B24800C34000043B5 /* TasksManager.swift in Sources */,
 				8DE0B40022277E6900860CF7 /* AddTaskViewController.swift in Sources */,
 				8DE0B3FE222630D600860CF7 /* TaskListViewController.swift in Sources */,
 			);
