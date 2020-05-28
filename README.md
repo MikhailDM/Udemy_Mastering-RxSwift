@@ -6,6 +6,7 @@ Udemy - Mastering RxSwift in iOS
 + [03_GoodList. To-Do App](#03_GoodList)
 + [04_GoodNews. News App](#04_GoodNews)
 + [05_GoodWeather. Weather App](#05_GoodWeather)
++ [06_NewsAppMVVM. News App MVVM](#06_NewsAppMVVM)
 
 >## <a name="01_HelloRxSwift"></a> 01_HelloRxSwift. Theory
 Playgrounds с теорией Observables/Subjects/Operators
@@ -25,3 +26,7 @@ To-Do App на принципах реактивного программиро�
 >## <a name="05_GoodWeather"></a> 05_GoodWeather. Weather App
 Погода в текущем городе
 ![Альтернативный текст](https://github.com/MikhailDM/Udemy_Mastering-RxSwift/blob/master/_Screenshots/05_GoodWeather/All.jpg)
+
+>## <a name="06_NewsAppMVVM"></a> 06_NewsAppMVVM. News App MVVM
+Погода в текущем городе
+![Альтернативный текст](https://github.com/MikhailDM/Udemy_Mastering-RxSwift/blob/master/_Screenshots/06_NewsAppMVVM/All.jpg)
