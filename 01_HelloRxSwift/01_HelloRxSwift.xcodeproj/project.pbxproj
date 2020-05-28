@@ -26,6 +26,7 @@
 		2713EBBB247D952C00CF4A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2713EBBD247D952C00CF4A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2713EBC3247D971600CF4A55 /* ObservableSubjectsPG.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObservableSubjectsPG.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		271CA34D247FB3F800E56EE9 /* CombiningPG.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombiningPG.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		273AE33B247ED62B00DFD898 /* TransformingPG.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingPG.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27D2D795247E8FC40057CEBC /* FilteringPG.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilteringPG.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		46717F55B2BE6E6841AAB33C /* Pods-01_HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-01_HelloRxSwift/Pods-01_HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		2713EBAE247D952900CF4A55 /* 01_HelloRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				271CA34D247FB3F800E56EE9 /* CombiningPG.playground */,
 				273AE33B247ED62B00DFD898 /* TransformingPG.playground */,
 				27D2D795247E8FC40057CEBC /* FilteringPG.playground */,
 				2713EBC3247D971600CF4A55 /* ObservableSubjectsPG.playground */,
