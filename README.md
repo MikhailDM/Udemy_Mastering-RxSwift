@@ -5,6 +5,7 @@ Udemy - Mastering RxSwift in iOS
 + [02_CameraFilter. Photo App](#02_CameraFilter)
 + [03_GoodList. To-Do App](#03_GoodList)
 + [04_GoodNews. News App](#04_GoodNews)
++ [05_GoodWeather. Weather App](#05_GoodWeather)
 
 >## <a name="01_HelloRxSwift"></a> 01_HelloRxSwift. Theory
 Playgrounds с теорией Observables/Subjects/Operators
@@ -20,3 +21,7 @@ To-Do App на принципах реактивного программиро�
 >## <a name="04_GoodNews"></a> 04_GoodNews. News App
 Новостная лента на RxSwift
 ![Альтернативный текст](https://github.com/MikhailDM/Udemy_Mastering-RxSwift/blob/master/_Screenshots/04_GoodNews/All.jpg)
+
+>## <a name="05_GoodWeather"></a> 05_GoodWeather. Weather App
+Погода в текущем городе
+![Альтернативный текст](https://github.com/MikhailDM/Udemy_Mastering-RxSwift/blob/master/_Screenshots/05_GoodWeather/All.jpg)
