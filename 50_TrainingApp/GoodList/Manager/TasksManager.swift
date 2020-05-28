@@ -22,7 +22,7 @@ class TasksManager {
     var tasksToPresent = [String]()
     
     //Subject который может как отправлять уведомления подписчикам, так и сам быть наблюдателем
-    private let taskManagerSubject = PublishSubject<String>()
+    let taskManagerSubject = PublishSubject<String>()
     //Property
     var taskManagerSubjectObservable: Observable<String> {
         return taskManagerSubject.asObservable()

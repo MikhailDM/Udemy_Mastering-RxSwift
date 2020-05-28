@@ -19,39 +19,20 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
     
 //MARK: - MANAGER
     var taskManager = TasksManager()
-    
-    
-    
-//MARK: - PROPERTIES
-    //Мусорка
-    let disposeBag = DisposeBag()
-    
-    //Хранение массива
-    var tasks = BehaviorRelay<[String]>(value: ["1", "2", "3"])
-    
-    //Массив всех задач
-    var tasksFilter = [String]()
-    //var observable = Observable<[Task]>.of([
-    /*//Массив всех задач
-    //BehaviorRelay - RxCocoa. Отлично подходят для незавершающихся последовательностей
-    private var tasks = BehaviorRelay<[Task]>(value: Task.getAllTasks())
-    //Отфильтрованые задачи
-    private var filteredTasks = [Task]()*/
-    
-    //Can emmit and subscribe
-    private let taskSubject = PublishSubject<String>()
-    //Property
-    var taskSubjectObservable: Observable<String> {
-        return taskSubject.asObservable()
-    }
 
     
 //MARK: - LYFECYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         //Подписываемся на Subject
         //Действия будут выполняться после обновления Subject
-        taskSubjectObservable
+        taskManager.subscribe()
+        
+        //Публикуем событие при запуске
+        taskManager.taskManagerSubject.onNext("10")
+        
+        /*taskSubjectObservable
             .subscribe(onNext: { [unowned self] task in
                 //Массив задач
                 var existingTasks = self.tasks.value
@@ -64,10 +45,7 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
                 self.tableView.reloadData()
             }).disposed(by: disposeBag)
         
-        tasksFilter = tasks.value
-        
-        //Публикуем событие при запуске
-        taskSubject.onNext("10")
+        tasksFilter = tasks.value*/
     }
     
     
@@ -78,13 +56,13 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return tasksFilter.count
+        return taskManager.tasksToPresent.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TaskTableViewCell", for: indexPath)
         //cell.textLabel?.text = self.filteredTasks[indexPath.row].title
-        cell.textLabel?.text = self.tasksFilter[indexPath.row]
+        cell.textLabel?.text = self.taskManager.tasksToPresent[indexPath.row]
         return cell
     }
     
@@ -118,12 +96,14 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
 //MARK: - ACTIONS
     @IBAction func sortAButtonPressed(_ sender: UIButton) {
         //Публикуем событие при запуске
-        taskSubject.onNext("A")
+        taskManager.taskManagerSubject.onNext("A")
+        tableView.reloadData()
     }
     
     @IBAction func sortZButtonPressed(_ sender: UIButton) {
         //Публикуем событие при запуске
-        taskSubject.onNext("Z")
+        taskManager.taskManagerSubject.onNext("Z")
+        tableView.reloadData()
     }
     
     
