@@ -6,7 +6,7 @@ Udemy - Mastering RxSwift in iOS
 + [03_GoodList. To-Do App](#03_GoodList)
 
 >## <a name="01_HelloRxSwift"></a> 01_HelloRxSwift. Теория
-Playgrounds с теорией Observables/Subjects/Operations/Transforming
+Playgrounds с теорией Observables/Subjects/Operators
 
 >## <a name="02_CameraFilter"></a> 02_CameraFilter. Фильтры для фото
 Накладываем фильтры на фото. Передача данных между экранами с помощью RxSwift
