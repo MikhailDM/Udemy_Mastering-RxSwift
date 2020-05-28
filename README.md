@@ -20,7 +20,7 @@ To-Do App на принципах реактивного программиро�
 ![Альтернативный текст](https://github.com/MikhailDM/Udemy_Mastering-RxSwift/blob/master/_Screenshots/03_GoodList/All.jpg)
 
 >## <a name="04_GoodNews"></a> 04_GoodNews. News App
-Новостная лента на RxSwift
+Новостная лента с помощью RxSwift
 ![Альтернативный текст](https://github.com/MikhailDM/Udemy_Mastering-RxSwift/blob/master/_Screenshots/04_GoodNews/All.jpg)
 
 >## <a name="05_GoodWeather"></a> 05_GoodWeather. Weather App
@@ -28,5 +28,5 @@ To-Do App на принципах реактивного программиро�
 ![Альтернативный текст](https://github.com/MikhailDM/Udemy_Mastering-RxSwift/blob/master/_Screenshots/05_GoodWeather/All.jpg)
 
 >## <a name="06_NewsAppMVVM"></a> 06_NewsAppMVVM. News App MVVM
-Погода в текущем городе
+Новостная лента с помощью RxSwift на MVVM
 ![Альтернативный текст](https://github.com/MikhailDM/Udemy_Mastering-RxSwift/blob/master/_Screenshots/06_NewsAppMVVM/All.jpg)
